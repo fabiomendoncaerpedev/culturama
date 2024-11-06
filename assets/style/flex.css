@@ -41,8 +41,11 @@
     display: grid;
     gap: .5rem;
     max-width: 400px;
-}
 
+    button {
+        justify-self: end;
+    }
+}
 
 @media (min-width: 720px) {
     /* CABEÇALHO */
