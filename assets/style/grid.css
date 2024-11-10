@@ -88,3 +88,34 @@
         grid-area: 1 / 3 / 3 / 4;
     }
 }
+
+@media (min-width: 1440px) {
+    .categorias {
+        display: grid;
+        grid-template-areas: 
+        "categories highlights";        
+        column-gap: 1.5rem;
+
+        .categorias__destaques {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .destaques {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+
+    .categorias__container {
+        grid-area: categories;
+
+        h2 {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    .categorias__destaques {
+        grid-area: highlights;
+    }
+}
