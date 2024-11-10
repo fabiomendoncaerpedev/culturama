@@ -27,7 +27,6 @@
 }
 
 /* EVENTOS */
-
 .eventos__lista {
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +42,17 @@
     row-gap: 1rem;
     column-gap: 1.5rem;
     justify-content: center;
+}
+
+/* RODAPÉ */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape__logo {
+    align-self: flex-end;
 }
 
 @media (min-width: 720px) {
